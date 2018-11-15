@@ -423,7 +423,7 @@
                 </instance>
                 <instance type="Text" uid="14">
                     <properties>
-                        <text>Estimated weekly revenue:**</text>
+                        <text>Weekly revenue:**</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Arial,-16</font>
                         <color>0,153,0</color>
@@ -439,7 +439,7 @@
                         <x>1</x>
                         <y>297</y>
                         <z>0</z>
-                        <width>227</width>
+                        <width>170</width>
                         <height>31</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
@@ -463,7 +463,7 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>210</x>
+                        <x>150</x>
                         <y>294</y>
                         <z>0</z>
                         <width>43</width>
@@ -503,7 +503,7 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>242</x>
+                        <x>182</x>
                         <y>297</y>
                         <z>0</z>
                         <width>97</width>
@@ -591,7 +591,7 @@
                 </instance>
                 <instance type="Text" uid="20">
                     <properties>
-                        <text>** Weekly/Monthly/Yearly calc with base if you create daily videos with the minimum video duration as what you put here</text>
+                        <text>** Estimated Weekly/Monthly/Yearly calc with base if you create daily videos with the minimum video duration as what you put here</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Arial,-15,400,0</font>
                         <color>0,51,51</color>
@@ -725,7 +725,7 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>524</x>
+                        <x>464</x>
                         <y>297</y>
                         <z>0</z>
                         <width>97</width>
@@ -750,7 +750,7 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>340</x>
+                        <x>280</x>
                         <y>297</y>
                         <z>0</z>
                         <width>170</width>
@@ -777,7 +777,126 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>492</x>
+                        <x>432</x>
+                        <y>294</y>
+                        <z>0</z>
+                        <width>43</width>
+                        <height>41</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Yearly2" uid="26">
+                    <properties>
+                        <text>Text</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>Arial,-16</font>
+                        <color>0,0,0</color>
+                        <horizontal-alignment>Center</horizontal-alignment>
+                        <vertical-alignment>Center</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>286</x>
+                        <y>-94</y>
+                        <z>0</z>
+                        <width>200</width>
+                        <height>30</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Yearly" uid="27">
+                    <properties>
+                        <text></text>
+                        <placeholder></placeholder>
+                        <tooltip></tooltip>
+                        <initial-visibility>Visible</initial-visibility>
+                        <enabled>No</enabled>
+                        <read-only>No</read-only>
+                        <spell-check>No</spell-check>
+                        <type>Number</type>
+                        <auto-font-size>No</auto-font-size>
+                        <id-optional></id-optional>
+                        <customizations></customizations>
+                        <background-color>255,255,255</background-color>
+                        <transparent-background>No</transparent-background>
+                        <font>Arial,-16</font>
+                        <font-color>0,0,0</font-color>
+                        <borders>Yes</borders>
+                        <top-margin>0</top-margin>
+                        <bottom-margin>0</bottom-margin>
+                        <left-margin>0</left-margin>
+                        <right-margin>0</right-margin>
+                        <horizontal-alignment>Left</horizontal-alignment>
+                        <select-all-on-focus>No</select-all-on-focus>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>745</x>
+                        <y>297</y>
+                        <z>0</z>
+                        <width>97</width>
+                        <height>32</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                    </world>
+                </instance>
+                <instance type="Text" uid="29">
+                    <properties>
+                        <text>Yearly revenue:**</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>Arial,-16</font>
+                        <color>0,153,0</color>
+                        <horizontal-alignment>Center</horizontal-alignment>
+                        <vertical-alignment>Center</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>561</x>
+                        <y>297</y>
+                        <z>0</z>
+                        <width>170</width>
+                        <height>31</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Text" uid="30">
+                    <properties>
+                        <text>$</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>Arial,-27,400,0</font>
+                        <color>0,153,0</color>
+                        <horizontal-alignment>Center</horizontal-alignment>
+                        <vertical-alignment>Center</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>713</x>
                         <y>294</y>
                         <z>0</z>
                         <width>43</width>

@@ -98,6 +98,12 @@
         <object-type name="Monthly" sid="320198556864969">
             <plugin id="AdvTextBox" />
         </object-type>
+        <object-type name="Yearly2" sid="794360792576053">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Yearly" sid="439582589083576">
+            <plugin id="AdvTextBox" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
