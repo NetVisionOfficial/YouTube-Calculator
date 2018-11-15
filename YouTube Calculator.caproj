@@ -15,6 +15,7 @@
         <plugin author="PlayLive" id="HTML_iFrame" version="1.419999957">HTML | iFrame</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
         <plugin author="Scirra" id="Text" version="1">Text</plugin>
+        <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
     </used-plugins>
     <used-behaviors />
     <used-effects />
@@ -110,6 +111,10 @@
         </object-type>
         <object-type name="SubsFelipeNeto" sid="690510165276118">
             <plugin id="HTML_iFrame" />
+        </object-type>
+        <object-type name="div" sid="286185395476618">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\Notebook Positivo\Desktop\div.png" />
         </object-type>
     </object-folder>
     <families />
