@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet 1</name>
+    <events>
+        <variable constant="0" name="RevenueperMinute" sid="925824288806337" static="0" type="number">0.000068</variable>
+        <variable constant="0" name="ViewsperSubscriber" sid="378596958352087" static="0" type="number">0.1</variable>
+        <variable constant="0" name="Month" sid="682307703868400" static="0" type="number">31</variable>
+        <variable constant="0" name="Subscribers" sid="928890865102316" static="0" type="number">0</variable>
+        <variable constant="0" name="VidLenght" sid="182452863573605" static="0" type="number">0</variable>
+        <variable constant="0" name="MinuteRevenue" sid="641962797533790" static="0" type="number">0</variable>
+        <variable constant="0" name="ResultViews" sid="831043653578111" static="0" type="number">0</variable>
+        <event-block sid="707363772505454">
+            <conditions>
+                <condition id="0" name="On clicked" sid="170455735298929" type="Calc" />
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="982967268065297" type="System">
+                    <param id="0" name="Variable">Subscribers</param>
+                    <param id="1" name="Value">Subscribers.Text</param>
+                </action>
+                <action id="-16" name="Wait" sid="534800448185957" type="System">
+                    <param id="0" name="Seconds">0.2</param>
+                </action>
+                <action id="0" name="Set text" sid="303782472770014" type="Views2">
+                    <param id="0" name="Text">float(Subscribers*ViewsperSubscriber)</param>
+                </action>
+                <action id="-16" name="Wait" sid="633298270966521" type="System">
+                    <param id="0" name="Seconds">0.2</param>
+                </action>
+                <action id="0" name="Set text" sid="266862550469253" type="Views">
+                    <param id="0" name="Text">Views2.Text</param>
+                </action>
+                <action id="-16" name="Wait" sid="537720849664871" type="System">
+                    <param id="0" name="Seconds">0.2</param>
+                </action>
+                <action id="-9" name="Set value" sid="873046583082036" type="System">
+                    <param id="0" name="Variable">ResultViews</param>
+                    <param id="1" name="Value">Views.Text</param>
+                </action>
+                <action id="-9" name="Set value" sid="142589689191228" type="System">
+                    <param id="0" name="Variable">VidLenght</param>
+                    <param id="1" name="Value">Lenght.Text</param>
+                </action>
+                <action id="-16" name="Wait" sid="299194052504155" type="System">
+                    <param id="0" name="Seconds">0.2</param>
+                </action>
+                <action id="-9" name="Set value" sid="666253103686628" type="System">
+                    <param id="0" name="Variable">MinuteRevenue</param>
+                    <param id="1" name="Value">float(VidLenght*RevenueperMinute)</param>
+                </action>
+                <action id="-16" name="Wait" sid="162452953363543" type="System">
+                    <param id="0" name="Seconds">0.2</param>
+                </action>
+                <action id="0" name="Set text" sid="997093649204336" type="Text2">
+                    <param id="0" name="Text">&quot;Lenght: &quot; &amp; VidLenght &amp; &quot; Revenue per minute: &quot; &amp; RevenueperMinute &amp; &quot; MinuteRevenue: &quot; &amp; str(MinuteRevenue)</param>
+                </action>
+                <action id="0" name="Set text" sid="917368461194651" type="Revenue2">
+                    <param id="0" name="Text">float(ResultViews*MinuteRevenue)</param>
+                </action>
+                <action id="-16" name="Wait" sid="837031600448546" type="System">
+                    <param id="0" name="Seconds">0.2</param>
+                </action>
+                <action id="0" name="Set text" sid="512274554243363" type="Revenue">
+                    <param id="0" name="Text">Revenue2.Text</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
