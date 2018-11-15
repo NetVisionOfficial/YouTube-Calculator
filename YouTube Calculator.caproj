@@ -67,10 +67,7 @@
         <object-type name="Revenue2" sid="795815692939810">
             <plugin id="Text" />
         </object-type>
-        <object-type name="Text2" sid="820867783036866">
-            <plugin id="Text" />
-        </object-type>
-        <object-type name="Monthly" sid="780996465965667">
+        <object-type name="Weekly" sid="780996465965667">
             <plugin id="AdvTextBox" />
         </object-type>
         <object-type name="calc2" sid="339171955987685">
@@ -91,6 +88,9 @@
                     </frame>
                 </animation>
             </animation-folder>
+        </object-type>
+        <object-type name="Weekly2" sid="243909893730470">
+            <plugin id="Text" />
         </object-type>
     </object-folder>
     <families />
