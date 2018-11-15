@@ -12,6 +12,7 @@
     <used-plugins>
         <plugin author="Pinco, Scirra" id="AdvTextBox" version="1.700000048">Advanced Text box</plugin>
         <plugin author="Scirra" id="Button" version="1">Button</plugin>
+        <plugin author="PlayLive" id="HTML_iFrame" version="1.419999957">HTML | iFrame</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
         <plugin author="Scirra" id="Text" version="1">Text</plugin>
     </used-plugins>
@@ -103,6 +104,12 @@
         </object-type>
         <object-type name="Yearly" sid="439582589083576">
             <plugin id="AdvTextBox" />
+        </object-type>
+        <object-type name="SubsDaniellMesquita" sid="767569185165392">
+            <plugin id="HTML_iFrame" />
+        </object-type>
+        <object-type name="SubsFelipeNeto" sid="690510165276118">
+            <plugin id="HTML_iFrame" />
         </object-type>
     </object-folder>
     <families />

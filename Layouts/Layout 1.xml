@@ -618,9 +618,9 @@
                 </instance>
                 <instance type="Text" uid="13">
                     <properties>
-                        <text>Calcs based from: Felipe Neto&apos;s $687=1mi views and Daniell Mesquita&apos;s 50 subscribers=5 views</text>
+                        <text>Calcs based from: Daniell Mesquita&apos;s 50 subscribers=5 views and Felipe Neto&apos;s 1mi views=$687</text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Arial,-15,400,0</font>
+                        <font>Arial,-12,400,0</font>
                         <color>0,51,51</color>
                         <horizontal-alignment>Center</horizontal-alignment>
                         <vertical-alignment>Center</vertical-alignment>
@@ -631,11 +631,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>339</x>
+                        <x>311</x>
                         <y>0</y>
                         <z>0</z>
-                        <width>514</width>
-                        <height>65</height>
+                        <width>542</width>
+                        <height>39</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
@@ -906,6 +906,76 @@
                         <hotspotY>0</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="SubsDaniellMesquita" uid="28">
+                    <properties>
+                        <id-optional></id-optional>
+                        <class-optional></class-optional>
+                        <initial-visibility>Visible</initial-visibility>
+                        <tooltip></tooltip>
+                        <background></background>
+                        <border></border>
+                        <scroll>Auto</scroll>
+                        <object>HTML</object>
+                        <iframe></iframe>
+                        <url></url>
+                        <html></html>
+                        <code>&lt;div style=&quot;margin-top:15px;&quot;&gt;&lt;script src=&quot;https://apis.google.com/js/platform.js&quot;&gt;&lt;/script&gt;&lt;div class=&quot;g-ytsubscribe&quot; data-channelid=&quot;UCaBUmyFr1-FsZ3L0ipi6Fcw&quot; data-layout=&quot;full&quot; data-count=&quot;default&quot;&gt;&lt;/div&gt;&lt;/div&gt;</code>
+                        <color></color>
+                        <text-selectable>Yes</text-selectable>
+                        <auto-font-size>Default</auto-font-size>
+                        <import></import>
+                        <css-import></css-import>
+                        <javascript-import></javascript-import>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>370</x>
+                        <y>36</y>
+                        <z>0</z>
+                        <width>209</width>
+                        <height>68</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                    </world>
+                </instance>
+                <instance type="SubsFelipeNeto" uid="31">
+                    <properties>
+                        <id-optional></id-optional>
+                        <class-optional></class-optional>
+                        <initial-visibility>Visible</initial-visibility>
+                        <tooltip></tooltip>
+                        <background></background>
+                        <border></border>
+                        <scroll>Auto</scroll>
+                        <object>HTML</object>
+                        <iframe></iframe>
+                        <url></url>
+                        <html></html>
+                        <code>&lt;div style=&quot;margin-top:15px;&quot;&gt;&lt;script src=&quot;https://apis.google.com/js/platform.js&quot;&gt;&lt;/script&gt;&lt;div class=&quot;g-ytsubscribe&quot; data-channelid=&quot;UCV306eHqgo0LvBf3Mh36AHg&quot; data-layout=&quot;full&quot; data-count=&quot;default&quot;&gt;&lt;/div&gt;&lt;/div&gt;</code>
+                        <color></color>
+                        <text-selectable>Yes</text-selectable>
+                        <auto-font-size>Default</auto-font-size>
+                        <import></import>
+                        <css-import></css-import>
+                        <javascript-import></javascript-import>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>599</x>
+                        <y>36</y>
+                        <z>0</z>
+                        <width>209</width>
+                        <height>68</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
                     </world>
                 </instance>
             </instances>
