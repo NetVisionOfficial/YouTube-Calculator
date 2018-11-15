@@ -92,6 +92,12 @@
         <object-type name="Weekly2" sid="243909893730470">
             <plugin id="Text" />
         </object-type>
+        <object-type name="Monthly2" sid="237129954903340">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Monthly" sid="320198556864969">
+            <plugin id="AdvTextBox" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>

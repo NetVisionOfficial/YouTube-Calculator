@@ -13,6 +13,7 @@
         <variable constant="0" name="MinuteRevenue" sid="641962797533790" static="0" type="number">0</variable>
         <variable constant="0" name="ResultViews" sid="831043653578111" static="0" type="number">0</variable>
         <variable constant="0" name="ResultRevenue" sid="152465775706376" static="0" type="number">0</variable>
+        <variable constant="0" name="RevenueWeekly" sid="686809326923504" static="0" type="number">0</variable>
         <event-block sid="707363772505454">
             <conditions>
                 <condition id="0" name="On clicked" sid="170455735298929" type="Calc" />
@@ -79,6 +80,22 @@
                 </action>
                 <action id="0" name="Set text" sid="212590284090632" type="Weekly">
                     <param id="0" name="Text">Weekly2.Text</param>
+                </action>
+                <action id="-9" name="Set value" sid="428367018611360" type="System">
+                    <param id="0" name="Variable">RevenueWeekly</param>
+                    <param id="1" name="Value">Weekly2.Text</param>
+                </action>
+                <action id="-16" name="Wait" sid="444745334656814" type="System">
+                    <param id="0" name="Seconds">0.2</param>
+                </action>
+                <action id="0" name="Set text" sid="917141473389507" type="Monthly2">
+                    <param id="0" name="Text">float(Month*ResultRevenue)</param>
+                </action>
+                <action id="-16" name="Wait" sid="765183647483558" type="System">
+                    <param id="0" name="Seconds">0.2</param>
+                </action>
+                <action id="0" name="Set text" sid="897713564671381" type="Monthly">
+                    <param id="0" name="Text">Monthly2.Text</param>
                 </action>
             </actions>
         </event-block>
